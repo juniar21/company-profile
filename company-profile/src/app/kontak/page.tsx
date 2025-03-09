@@ -5,6 +5,12 @@ import { BsFillPhoneFill } from "react-icons/bs";
 import { Button } from "@/components/ui/button";
 import Background from "@/components/background";
 import Motion from "@/components/motiontwo";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kontak",
+  description: "Page Kontak",
+};
 
 
 export default function Kontak() {

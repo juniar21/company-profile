@@ -198,7 +198,7 @@ export default function Aboutus() {
                           />
                           <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
-                        <div className="text-[15px]">
+                        <div className="text-[18px]">
                           Mauris ut lobortis purus. Cras eu nulla erat. Nulla
                           imperdiet ligula eu metus imperdiet porttitor. Vivamus
                           iaculis nunc et risus accumsan, quis egestas velit
@@ -227,7 +227,7 @@ export default function Aboutus() {
                           />
                           <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
-                        <div className="text-[15px]">
+                        <div className="text-[18px]">
                           Mauris ut lobortis purus. Cras eu nulla erat. Nulla
                           imperdiet ligula eu metus imperdiet porttitor. Vivamus
                           iaculis nunc et risus accumsan, quis egestas velit
@@ -256,7 +256,7 @@ export default function Aboutus() {
                           />
                           <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
-                        <div className="text-[15px]">
+                        <div className="text-[18px]">
                           Mauris ut lobortis purus. Cras eu nulla erat. Nulla
                           imperdiet ligula eu metus imperdiet porttitor. Vivamus
                           iaculis nunc et risus accumsan, quis egestas velit

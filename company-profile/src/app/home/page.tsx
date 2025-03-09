@@ -3,6 +3,7 @@ import Image from "next/image";
 import CarouselDefault from "../../components/carousel";
 import FadeContent from "@/components/fadecontent";
 
+
 export default function Welcome() {
   return (
     <div className="mt-[-50px] max-lg:mt-[-45px]">

@@ -1,5 +1,12 @@
 import Background from "@/components/background";
 import CardMe from "@/components/cardMe";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Menu",
+  description: "Page Menu",
+};
+
 
 const IsianCard = [
   {
@@ -40,6 +47,45 @@ const IsianCard = [
   },
 ];
 
+const IsianCard2 = [
+  {
+    link: "/food1.jpeg",
+    name: "Pork Belly",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp35.000",
+  },
+  {
+    link: "/food2.jpeg",
+    name: "Salmon Grilled",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp40.000",
+  },
+  {
+    link: "/food3.jpeg",
+    name: "Crispy Tuna",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp45.000",
+  },
+  {
+    link: "/food4.jpeg",
+    name: "Ginger Steak",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp37.000",
+  },
+  {
+    link: "/food5.jpeg",
+    name: "Spinach Shrimp",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp50.000",
+  },
+  {
+    link: "/food6.jpeg",
+    name: "Chicken Stew",
+    description: "Steak, Ginger Flakes, Pepper",
+    price: "Rp40.000",
+  },
+];
+
 export default function Menu() {
   return (
     <div>
@@ -53,6 +99,27 @@ export default function Menu() {
         <div className="p-4">
           <div className="flex flex-wrap gap-5 justify-center items-center text-center">
             {IsianCard.map((item, idx) => {
+              return (
+                <div key={idx}>
+                  <CardMe
+                    link={item.link}
+                    name={item.name}
+                    description={item.description}
+                    price={item.price}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="p-4 text-center">
+          <p className="text-[60px] text-amber-950">
+            Food <span className="font-bold text-black">Menu</span>
+          </p>
+        </div>
+        <div className="p-4">
+          <div className="flex flex-wrap gap-5 justify-center items-center text-center">
+            {IsianCard2.map((item, idx) => {
               return (
                 <div key={idx}>
                   <CardMe
