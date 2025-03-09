@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Company Profile | Me",
-    template: "Company Profile | %s"
+    template: "Company Profile | %s",
   },
   description: "This Page About Portofolio",
-};;
-
+  openGraph: { url: "https://mycompanyprofile.vercel.app/carousel2.jpg" },
+};
 
 export default function RootLayout({
   children,
@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-       <Navbar />
+        <Navbar />
         {children}
         <Footer />
       </body>
