@@ -22,7 +22,7 @@ export default function Aboutus() {
         <div className="p-4 mt-[-16px]">
           <div className=" md:flex w-full items-center justify-center h-[200px] mt-5 ">
             <div className="md:flex gap-4 mx-auto px-4">
-              <CiCoffeeBean className="h-[90px] w-[90px] text-amber-900" />
+              <CiCoffeeBean className="h-[90px] w-[90px] text-amber-900 animate-bounce" />
               <div>
                 <p className="font-mono text-2xl font-bold">
                   Great Coffee Beans
@@ -32,7 +32,7 @@ export default function Aboutus() {
                   varius nec dui.
                 </h1>
               </div>
-              <CiCoffeeCup className="h-[90px] w-[90px] text-amber-900" />
+              <CiCoffeeCup className="h-[90px] w-[90px] text-amber-900 animate-bounce" />
               <div>
                 <p className="font-mono text-2xl font-bold">
                   Best Coffee Flavor
@@ -42,7 +42,7 @@ export default function Aboutus() {
                   varius nec dui.
                 </h2>
               </div>
-              <MdCoffeeMaker className="h-[90px] w-[90px] text-amber-900" />
+              <MdCoffeeMaker className="h-[90px] w-[90px] text-amber-900 animate-bounce" />
               <div>
                 <p className="font-mono text-2xl font-bold">
                   Incredible Coffee Menu

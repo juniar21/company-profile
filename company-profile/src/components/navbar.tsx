@@ -23,14 +23,14 @@ export default function Navbar() {
 
     
       <div
-        className={`absolute z-10 top-[100px] left-0 w-full md:mt-[80px] md:static md:flex md:w-auto md:gap-9 h-auto md:h-[100px] p-4 md:p-0 shadow-md md:shadow-none transition-all duration-300 ${
+        className={`absolute z-10 top-[100px] left-0 w-full md:mt-[80px] max-md:bg-amber-800 md:static md:flex md:w-auto md:gap-9 h-auto md:h-[100px] p-4 md:p-0 shadow-md md:shadow-none transition-all duration-300 ${
           isOpen ? "block" : "hidden"
         } md:flex`}
       >
-        <Link href={"/"} className="block py-2 md:py-0 hover:border-b-2 text-black">HOME</Link>
-        <Link href={"/aboutus"} className="block py-2 md:py-0 hover:border-b-2 text-black">ABOUT US</Link>
-        <Link href={"/menu"} className="block py-2 md:py-0 hover:border-b-2 text-black">MENU</Link>
-        <Link href={"/kontak"} className="block py-2 md:py-0 hover:border-b-2 text-black">CONTACT</Link>
+        <Link href={"/"} className="block py-2 md:py-0 hover:border-b-2 text-black max-md:text-white">HOME</Link>
+        <Link href={"/aboutus"} className="block py-2 md:py-0 hover:border-b-2 text-black max-md:text-white">ABOUT US</Link>
+        <Link href={"/menu"} className="block py-2 md:py-0 hover:border-b-2 text-black max-md:text-white">MENU</Link>
+        <Link href={"/kontak"} className="block py-2 md:py-0 hover:border-b-2 text-black max-md:text-white">CONTACT</Link>
       </div>
 
   
